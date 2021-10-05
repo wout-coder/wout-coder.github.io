@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: #030303;
+  color: hsl(263, 100%, 50%);
   text-decoration: none;
 }
 
@@ -172,7 +172,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #000000;
+  color: hsl(263, 100%, 50%);
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
