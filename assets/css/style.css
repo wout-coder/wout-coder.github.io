@@ -204,7 +204,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: hsl(263, 100%, 50%);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -214,10 +214,10 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #4154f1;
+  color: hsl(263, 100%, 50%);
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #4154f1;
+  background: hsl(263, 100%, 50%);
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -225,7 +225,7 @@ section {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: hsl(263, 100%, 50%);
 }
 .navbar .dropdown ul {
   display: block;
@@ -238,7 +238,7 @@ section {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px hsl(263, 100%, 50%);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -255,7 +255,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: hsl(263, 100%, 50%);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -286,7 +286,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: hsl(263, 100%, 50%);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -313,7 +313,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: hsl(263, 100%, 50%);
   transition: 0.3s;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -337,10 +337,10 @@ section {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: hsl(263, 100%, 50%);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: hsl(263, 100%, 50%);
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -354,7 +354,7 @@ section {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px hsl(263, 100%, 50%);
 }
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
@@ -366,7 +366,7 @@ section {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: hsl(263, 100%, 50%);
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
